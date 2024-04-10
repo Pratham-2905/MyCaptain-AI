@@ -1,0 +1,8 @@
+E = eval(input("Enter set 1: "))
+E = set(E)
+N = eval(input("Enter set 2: "))
+N = set(N)
+print(f"Set Union is: {E.union(N)}")
+print(f"Set Intersection is: {E.intersection(N)}")
+print(f"Set Difference is: {E.difference(N)}")
+print(f"Symmetric Difference is: {E.symmetric_difference(N)}")
